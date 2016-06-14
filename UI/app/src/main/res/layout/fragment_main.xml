@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.andrew.uisample.MainActivityFragment"
+    tools:showIn="@layout/activity_main"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+
+
+    <ImageView
+        android:layout_width="94dp"
+        android:layout_height="151dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/andrew"
+        android:paddingTop="5dp"
+        android:layout_weight="1" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Andrew\n\nGreenberg"
+        android:id="@+id/textView"
+        android:textColor="#E30E0E"
+        android:textStyle="italic"
+        android:paddingTop="50dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="106dp"
+        android:text="CS639"
+        android:id="@+id/textView2"
+        android:textColor="#0EAEE3"
+        android:paddingTop="50dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
